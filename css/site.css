@@ -214,3 +214,37 @@ h2 {
 #footer {
   padding-bottom: 4em;
 }
+
+.social {
+  text-align: center;
+}
+
+.social li a {
+  margin: 2em 0.4em;
+  text-align: center;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 9px 0 0 0px;
+}
+
+.social li {
+  display: inline-block;
+  background: none;
+}
+
+.facebook {
+  background-color: #3c579d;
+}
+
+.twitter {
+  background-color: #48c8f2;
+}
+
+.instagram {
+  background-color: #32628a;
+}
