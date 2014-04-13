@@ -185,6 +185,7 @@ h2 {
   height: 556px;
   position: relative;
   margin: 3em auto;
+  left: -22px;
 }
 
 .polaroid .crop {
