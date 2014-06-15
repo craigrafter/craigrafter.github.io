@@ -57,8 +57,8 @@ html, body {
 
 body {
   background: #fff;
-  font-size: 10px;
-  line-height: 14px;
+  font-size: 16px;
+  line-height: 20px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -131,7 +131,7 @@ h2 {
 
 .nav {
   font-size: 1.4em;
-  margin: 3em;
+  margin: 4em;
   text-align: center;
 }
 
@@ -146,7 +146,6 @@ h2 {
 
 .nav a .hash {
   text-decoration: none;
-  font-weight: 700;
 }
 
 .x {
@@ -178,6 +177,11 @@ h2 {
   text-align: center;
 }
 
+.photos {
+  text-align:center;
+  width: 100%;
+}
+
 .polaroid {
   background-image: url(/images/frame.png);
   background-repeat: no-repeat;
@@ -186,6 +190,7 @@ h2 {
   position: relative;
   margin: 3em auto;
   left: -22px;
+  display: inline-block;
 }
 
 .polaroid .crop {
@@ -212,7 +217,8 @@ h2 {
 }
 
 #footer {
-  padding-bottom: 4em;
+  padding: 4em 0 4em 0;
+  width: 100%;
 }
 
 .social {
@@ -247,4 +253,67 @@ h2 {
 
 .instagram {
   background-color: #32628a;
+}
+
+form {
+  width: 600px;
+  margin: 2em auto;
+}
+
+form .field {
+  padding: 0.8em 0;
+}
+
+form label {
+  display: block;
+  float: none;
+}
+
+form input, form textarea {
+  width: 100%;
+  font-size: 1.2em;
+  border: none;
+  border-bottom: 1px solid #efefef;
+}
+
+form .ss-choices {
+  margin-top: 1em;
+}
+
+form .ss-choices label {
+  display: inline-block;
+}
+form .ss-choices input {
+  width: 1em;
+}
+
+form .csz {
+  width: 100%;
+}
+
+form .csz .city {
+  display: inline-block;
+  width: 52%;
+}
+
+form .csz .state {
+  display: inline-block;
+  width: 20%;
+}
+
+form .csz .zip {
+  display: inline-block;
+  width: 24%;
+}
+
+#ss-submit {
+  margin: 1em auto;
+  width: 200px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding: 0.8em;
+  border: 1px solid black;
+  background: none;
 }
